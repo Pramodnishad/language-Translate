@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 9vh;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 2%;
+  background-color: #037296;
+  position: static;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  margin-top: -20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+}
+.item1 {
+  margin-right: 100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.home {
+  height: 90vh;
+  width: 50vw;
+  margin-left: 20%;
+}
+h1 {
+  color: rgb(30, 3, 94);
+  font-size: 40px;
+  font-style: italic;
+}
+h2 {
+  margin-left: -90%;
+  color: #9e9d9d;
+}
+h3 {
+  color: #608b99;
+  font-size: 25px;
+  font-style: italic;
+}
+span {
+  font-size: 20px;
+  margin-left: 10%;
+}
+.calendar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.langauge {
+  margin-top: -3.5%;
+}
+.style-language {
+  height: 30px;
+  margin-right: 20px;
+  background-color: #037296;
+  font-size: 20px;
+  color: rgb(67, 4, 88);
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+
